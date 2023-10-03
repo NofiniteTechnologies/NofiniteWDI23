@@ -1,0 +1,4 @@
+run commanda:
+yarn i
+yarn dev
+
