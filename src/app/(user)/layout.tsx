@@ -1,4 +1,5 @@
 'use client';
+
 import 'swiper/swiper.min.css';
 import { Navbar } from '@/components/Navbar/NavBar';
 import { theme } from '@/theme';

@@ -5,6 +5,7 @@ import { AppLogo } from '../AppLogo';
 import { Cart } from '../Cart/Cart';
 import { Wishlist } from '../Wishlist/Wishlist';
 import { Search } from '../Search/Search';
+import { LoginSignup } from '../Login/LoginSignup';
 
 export function DesktopNav() {
   return (
@@ -35,6 +36,7 @@ export function DesktopNav() {
       <Stack direction="row" spacing={2}>
         <Wishlist />
         <Cart />
+        <LoginSignup />
       </Stack>
     </Flex>
   );
